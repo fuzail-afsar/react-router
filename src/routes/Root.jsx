@@ -12,7 +12,6 @@ export const action = async () => {
 
 const Root = () => {
   const { contacts } = useLoaderData();
-  console.log(contacts);
   return (
     <>
       <div id="sidebar">
